@@ -1,5 +1,6 @@
 # How to make it work for you
-This form is made up of two files: form.html, and Code.gs. Follow these steps to run them:
+Instructions modified from https://github.com/CharlesPlucker/drive-multi-upload/ (unfortunately I could not make it work using Charles Plucker's script)  
+This form is made up of two files: form.html, and Code.gs. Follow these steps to run them:  
 
 1. Go to http://script.google.com (you need to login to one and only one google account; use Incognito Window, login first before visiting script)
 2. Click on "New project" at the top left of the page
@@ -14,7 +15,7 @@ mainFolderName = "my folder name";
 8. Authorize the app by Reviewing Permissions and allowing this script to modify your google drive. (If you see a "BACK TO SAFETY" button you should click "Advanced", then the link that says "unsafe")
 9. The Webapp will show "Deployment ID", "Web app", "URL". Copy that URL link, or click to view the form. (you can always find this link again by going to "Deploy" -> "Manage deployment")
 
-# The following contents are from original copy:
+# The following contents are from original Michael Kofron copy:
 https://github.com/michaelkofron/DriveRequest
 
 # Example
