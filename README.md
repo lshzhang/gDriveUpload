@@ -1,3 +1,22 @@
+# How to make it work for you
+This form is made up of two files: form.html, and Code.gs. Follow these steps to run them:
+
+1. Go to http://script.google.com (you need to login to one and only one google account; use Incognito Window, login first before visiting script)
+2. Click on "New project" at the top left of the page
+3. Paste the contents of Code.gs into the Code.gs file that opens up (remove everything already in there). Modify the folder name in the first line of code:
+```
+mainFolderName = "my folder name";
+```
+4. Click at the + sign to the right of "File" then click "HTML" and name it form.html 
+5. Copy the contents of form.html into the newly created form.html (remove the template already in there)
+6. Deploy your code by going to "Deploy" -> "New deployment" -> "Select type" click the cockwheel, choose "Webapp"
+7. On the right side "Configuration", Give a description for the App, choose "Anyone" for "Who has access", click "Deploy"
+8. Authorize the app by Reviewing Permissions and allowing this script to modify your google drive. (If you see a "BACK TO SAFETY" button you should click "Advanced", then the link that says "unsafe")
+9. The Webapp will show "Deployment ID", "Web app", "URL". Copy that URL link, or click to view the form. (you can always find this link again by going to "Deploy" -> "Manage deployment")
+
+# The following contents are from original copy:
+https://github.com/michaelkofron/DriveRequest
+
 # Example
 
 https://user-images.githubusercontent.com/53279060/227257682-b6f5dd62-ce68-4fe2-9fff-13a72c614efc.mp4

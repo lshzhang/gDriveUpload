@@ -1,5 +1,7 @@
-//the name of a folder that you created in your Drive prior to using this script
-mainFolderName = "Random Images";
+//The name of a folder that you created in your Drive prior to using this script
+//This name is user defined; change it before Publish the script
+
+mainFolderName = "my folder name";
 
 mainFolder = getSubFolder(mainFolderName, DriveApp);
 user = mainFolder.getOwner();
